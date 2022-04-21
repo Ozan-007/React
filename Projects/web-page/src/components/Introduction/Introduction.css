@@ -1,0 +1,32 @@
+.intro{
+    display: flex;
+    height: 100vh;
+}
+
+.intro-left{
+    background-color:aqua;
+    flex:1;
+}
+.intro-left-wrapper{
+    padding:4rem;
+}
+
+.name-intro{
+    font-size:30px;    
+}
+
+.name{
+    font-size:60px;
+    font-weight:300px;
+}
+
+.title{
+    height:100px;
+    border:1px solid red;
+    overflow:hidden;
+}
+
+
+.intro-right{
+    flex:1;
+}
