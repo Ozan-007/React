@@ -21,12 +21,27 @@
 }
 
 .title{
-    height:100px;
-    border:1px solid red;
+    height:52px;
     overflow:hidden;
 }
+
+.title-wrapper{
+    height:100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+.title-item{
+    font-size: 50px;
+    color:purple;
+    font-weight: bold;
+    background-color:cadetblue;
+}
+
 
 
 .intro-right{
     flex:1;
 }
+
+
+
